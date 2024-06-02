@@ -58,3 +58,20 @@ home页面中设置一个路由出口，也就是也要设置一个 <RouterView/
 
 3   引入scss样式
 在main.js文件下引入  import '@/styles/common.scss'
+
+05　SCSS文件的自动导入
+
+1   新增一个var.scss文件，存入样式和色值的变量  src\styles\var.scss
+2   通过vite.config.js配置自动导入文件， 这样就不需要在每个页面中添加 import操作。  @use "@/styles/var.scss" as *;
+3   这样子就可以在vue模块中直接使用，而不需要进行导入操作。
+
+<template>
+  <div class="test">
+    test scss
+  </div>
+</template>
+
+<style scoped lang="scss">
+.test{
+  color:$priceColor;    $priceColor  这是在var.scss里面配置好的
+}    
