@@ -1,3 +1,4 @@
+01 项目的准备和主题定制
 1 首先引入Element Plus组件，详细参考本项目的 vite.config.js 文件
 2 主题定制， 安装SCSS，装备定制样式文件， 对ElementPlus样式进行覆盖。 
     1 安装SCSS  npm i sass -D
@@ -6,3 +7,27 @@
        1 自动导入定制化样式文件进行样式覆盖
        2 按需定制主题配置 （需要安装 unplugin-element-plus）
 3 详细请看vite.config.js 的文件
+
+
+02 项目起步 -axios基础配置      ⭐⭐⭐⭐⭐这一段的配置是不挑项目的，不管在任何公司 这一段的配置都是正规的
+
+1   安装axios  npm i axios
+2   配置基础实例（统一接口配置）
+    1   接口基本地址配置， 接口的地址都是一样的 所以进行统一配置
+    2   接口超时时间  当超过一定的时候，就断掉请求。
+    3   请求拦截器
+    4   响应拦截器
+3   详细请看src\utils\http.js 的文件，
+    上面的3个步骤是为第4个步骤做服务的。
+
+4   测试API接口， 详细请看src\apis\testAPI.js 的文件，
+5   然后在main.js中测试这个接口是否可以正常连接  
+import{getCategoryAPI} from '@/apis/testAPI'
+getCategoryAPI().then(res=>{
+    console.log(res);
+})
+
+6   这是请求的完整地址 
+Request URL:http://pcapi-xiaotuxian-front-devtest.itheima.net/home/category/head
+    1 http://pcapi-xiaotuxian-front-devtest.itheima.net  这个部分是在 http.js里面设置的基本地址
+    2 /home/category/head 为在src\apis\testAPI.js 里面设置的请求地址  
