@@ -31,3 +31,30 @@ getCategoryAPI().then(res=>{
 Request URL:http://pcapi-xiaotuxian-front-devtest.itheima.net/home/category/head
     1 http://pcapi-xiaotuxian-front-devtest.itheima.net  这个部分是在 http.js里面设置的基本地址
     2 /home/category/head 为在src\apis\testAPI.js 里面设置的请求地址  
+
+03  项目起步-项目路由设计
+
+1   在views文件下创建需要的界面的文件夹，这里是练习项目，所以在下面先创建了两个Layout 主界面和 Loigin 登录界面
+2   路由整体设计  参考 src\router\index.js  文件
+3   路由出口组件 
+在app.vue中定义   这是一级路由出口， 比如设置二级路由出口， 什么是二级路由出口呢，就是子路由
+<template>
+  <RouterView/>
+</template>
+
+什么是一级路由，一级路由就是整体的页面切换 就是一级路由
+什么是二级路由，二级路由就是比如你想要表头不变，只改变中间部分的区域，那这就是二级路由，还有三级路由等等，
+如果你想在home页面的子路由中设置一个二级路由，就是想访问这个子页面的话，那么你就要在
+home页面中设置一个路由出口，也就是也要设置一个 <RouterView/>
+
+04  项目起步-静态资源初始化和Error Lens安装。
+
+1   什么是静态资源，
+静态资源分为图片资源和样式资源
+
+2   资源操作
+    1 图片资源 -把images文件夹放到assets目录下方 
+    2 样式资源 -把common.scss文件放到styles目录下方
+
+3   引入scss样式
+在main.js文件下引入  import '@/styles/common.scss'
