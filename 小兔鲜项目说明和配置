@@ -1,0 +1,8 @@
+1 首先引入Element Plus组件，详细参考本项目的 vite.config.js 文件
+2 主题定制， 安装SCSS，装备定制样式文件， 对ElementPlus样式进行覆盖。 
+    1 安装SCSS  npm i sass -D
+    2 定制SCSS主题， 详细参考 src\styles\element\index.scss 直接复制即可
+    3 这里自动导入需要深入到elementPlus的组件中，按照官方的配置文档来
+       1 自动导入定制化样式文件进行样式覆盖
+       2 按需定制主题配置 （需要安装 unplugin-element-plus）
+3 详细请看vite.config.js 的文件
