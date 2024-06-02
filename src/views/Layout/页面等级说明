@@ -1,0 +1,5 @@
+1   src\views\Layout\components\LayoutNav.vue   此为一级表头，就是最上面的那个部分定义 比如退出 个人中心等
+
+2   src\views\Layout\components\LayoutHeader.vue 此为二级表头，就是标题那一部分 比如导航  首页，入库，出库，在库 的区域
+
+3   src\views\Layout\components\LayoutFooter.vue  此为底部的设置，一般为公司的信息等等。
