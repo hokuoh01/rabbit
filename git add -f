@@ -1,0 +1,47 @@
+[33mcommit 1ab6e6df43e4676a76dbcc1cb6ef35cd91b3093d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 19:46:11 2024 +0900
+
+    vue画面の設定、タイトル、体、お尻
+
+[33mcommit 09a4391da84872fb927d375d0b6c3f6f67054682[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 19:27:40 2024 +0900
+
+    scssの自動導入
+
+[33mcommit ae4140914411b98da43299c7c0c416456fa26325[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 19:15:04 2024 +0900
+
+    imageとScssの設定
+
+[33mcommit 85383b8997337e9304b978c3829d97fe2ff9a7a5[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 17:50:05 2024 +0900
+
+    axios基礎設定
+
+[33mcommit b80d982151b5f83f16bc66bd81f5c943e9844771[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 17:22:09 2024 +0900
+
+    elementのテーマ色定義
+
+[33mcommit 0a33e2b5f4c4b21fd0dc31e42378943877827375[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 16:55:18 2024 +0900
+
+    elementPlus自动按需引入配置
+
+[33mcommit 836b5edfb809ea9e212da3ecac71bdd966726076[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 16:15:43 2024 +0900
+
+    別名の連想設定
+
+[33mcommit 659a905947b5c3709f4fcf3fac3f9e182c724500[m
+Author: Yu Bo <yu.ha@hrg.co.jp>
+Date:   Sun Jun 2 16:06:12 2024 +0900
+
+    init
